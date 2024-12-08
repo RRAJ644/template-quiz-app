@@ -322,6 +322,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const submitButton = document.createElement('button')
       submitButton.textContent = 'Submit'
+      submitButton.classList.add('submit-answer')
       submitButton.addEventListener('click', () => {
         if (!answerSelected) {
           answerSelected = true
